@@ -1,27 +1,23 @@
-
-from openai import OpenAI
 import os
+from openai import OpenAI
 
-
-from dotenv import load dotenv
+from dotenv import load_dotenv
 from rich import print
 
-load dotenv()
-
+load_dotenv()
 
 client = OpenAI(
-    # This is the default and can be omitted
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key=os.getenv("OPENAI_API_KEY"),  # This is the default and can be omitted
 )
 
 chat_completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "Say this is a test",
+            "content": "Generate me a python code to read a file",
         }
     ],
     model="gpt-4o",
 )
 
-print(chat_completion)
+print(chat_completion.choices[0].message.content)

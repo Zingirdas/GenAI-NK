@@ -2,27 +2,34 @@
 
 ### Day 1.
 
--   Intro to course, goals.
--   About me.
--   ai engineer
--   vscode
--   Git and Github
--   https://chatgpt.com/
--   Python basics
+- Intro to course, goals.
+- About me.
+- ai engineer
+- vscode
+- Git and Github
+- https://chatgpt.com/
+- Python basics
 
 ### Day 2.
+- Chatgpt limitations:
+  - hulucinations 
+  - Cutoff knowledge date.
+  - System integrations
+  - Openai Python Client
 
--Chatgpt limitations knowlege:
--halucinations
--Cutoff knowlege date
+  - .gitignore
+  - .env
+  - python-dotenv
+  - openai
+  - github models
+  
+  - poetry/ virtual environments
 
--System integrations
--OpenAi python client
+## Week 1
 
--gitignore
--.env
--python-.env
--openai
--github models
-
--poetry virtual enviroments
+### Day 1
+  - Fine-tuning vs RAG
+  - Simplified RAG.
+  - uv, dependency management
+  - Python notebooks
+  
