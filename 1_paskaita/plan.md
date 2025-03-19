@@ -32,4 +32,22 @@
   - Simplified RAG.
   - uv, dependency management
   - Python notebooks
+
+### Day 2
+  - RAG
+
+
+### Day 3
+  - UV and Venv
+  - Starting new Python projects
+  - Streamlit
+
+## Week 3
+  
+### Day 1
+
+  - Open source models
+  - Ollama
+  - AI assisted programming.
+  - Deepen python knowledge/streamlit.
   
